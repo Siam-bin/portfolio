@@ -115,6 +115,24 @@ const TwitterIcon = () => (
   </svg>
 );
 
+const InstagramIcon = () => (
+  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12.004 0C8.743 0 8.332.015 7.054.073c-1.28.058-2.157.26-2.924.555A5.885 5.885 0 001.995 2.76a5.885 5.885 0 00-2.132 2.135c-.295.767-.497 1.644-.555 2.924C-.073 8.332-.088 8.743-.088 12.004c0 3.26.015 3.67.073 4.95.058 1.28.26 2.156.555 2.923a5.885 5.885 0 002.132 2.135 5.885 5.885 0 002.135 2.133c.767.295 1.644.497 2.924.555 1.278.058 1.689.073 4.95.073s3.67-.015 4.948-.073c1.28-.058 2.157-.26 2.924-.555a5.885 5.885 0 002.135-2.133 5.885 5.885 0 002.133-2.135c.295-.767.497-1.643.555-2.923.058-1.28.073-1.69.073-4.95s-.015-3.672-.073-4.95c-.058-1.28-.26-2.157-.555-2.924A5.885 5.885 0 0019.078 2.76a5.885 5.885 0 00-2.135-2.133C16.176.332 15.299.13 14.02.072 12.741.014 12.33-.001 12.004-.001h.004zm0 2.162c3.203 0 3.584.012 4.849.07 1.17.054 1.805.249 2.228.414.56.218.96.477 1.38.896.42.42.679.821.896 1.381.164.423.36 1.057.413 2.227.059 1.266.07 1.646.07 4.85s-.011 3.584-.07 4.849c-.053 1.17-.249 1.805-.413 2.228-.218.56-.477.96-.896 1.38-.42.42-.821.679-1.38.896-.424.164-1.058.36-2.228.413-1.266.059-1.646.07-4.85.07s-3.584-.011-4.849-.07c-1.17-.053-1.804-.249-2.228-.413a3.723 3.723 0 01-1.38-.896 3.723 3.723 0 01-.896-1.38c-.164-.423-.36-1.057-.413-2.228-.059-1.265-.07-1.645-.07-4.849s.011-3.584.07-4.85c.053-1.17.249-1.804.413-2.227.218-.56.477-.96.896-1.381a3.723 3.723 0 011.38-.896c.424-.164 1.058-.36 2.228-.413 1.266-.058 1.646-.07 4.85-.07zM12.004 5.838a6.166 6.166 0 100 12.332 6.166 6.166 0 000-12.332zm0 10.162a3.996 3.996 0 110-7.992 3.996 3.996 0 010 7.992zM19.846 5.595a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"/>
+  </svg>
+);
+
+const FacebookIcon = () => (
+  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+    <path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" />
+  </svg>
+);
+
+const WhatsAppIcon = () => (
+  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+);
+
 // --- Header/Navigation ---
 const Header = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -124,6 +142,7 @@ const Header = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Resume', href: '#resume' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -211,6 +230,68 @@ const Hero = () => {
           <p className="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl">
             An economics student, entrepreneur, and aspiring developer passionate about building impactful solutions.
           </p>
+          
+          {/* Social Media Links */}
+          <div className="mb-8">
+            <h3 className="text-lg font-semibold mb-4 text-indigo-600 dark:text-indigo-400">Connect with me:</h3>
+            <div className="flex justify-center md:justify-start space-x-6">
+              <a 
+                href="https://github.com/siambinhasan" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200 transform hover:scale-110"
+                title="GitHub"
+              >
+                <GitHubIcon />
+              </a>
+              <a 
+                href="https://linkedin.com/in/siambinhasan" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 transform hover:scale-110"
+                title="LinkedIn"
+              >
+                <LinkedInIcon />
+              </a>
+              <a 
+                href="https://facebook.com/siambinhasan" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-200 transform hover:scale-110"
+                title="Facebook"
+              >
+                <FacebookIcon />
+              </a>
+              <a 
+                href="https://instagram.com/siambinhasan" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-700 dark:text-gray-300 hover:text-pink-500 dark:hover:text-pink-400 transition-colors duration-200 transform hover:scale-110"
+                title="Instagram"
+              >
+                <InstagramIcon />
+              </a>
+              <a 
+                href="https://wa.me/+8801XXXXXXXXX" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-700 dark:text-gray-300 hover:text-green-500 dark:hover:text-green-400 transition-colors duration-200 transform hover:scale-110"
+                title="WhatsApp"
+              >
+                <WhatsAppIcon />
+              </a>
+              <a 
+                href="https://twitter.com/siambinhasan" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-700 dark:text-gray-300 hover:text-blue-400 dark:hover:text-blue-300 transition-colors duration-200 transform hover:scale-110"
+                title="Twitter"
+              >
+                <TwitterIcon />
+              </a>
+            </div>
+          </div>
+          
           <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
             <Button onClick={() => window.location.href = '#projects'} primary>View My Work</Button>
             <Button onClick={() => window.location.href = '#contact'} primary={false}>Get In Touch</Button>
@@ -432,21 +513,6 @@ const Contact = () => {
           </div>
           <Button type="submit" className="w-full">Send Message</Button>
         </form>
-
-        <div className="mt-12 text-center">
-          <h3 className="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-400">Find Me On</h3>
-          <div className="flex justify-center space-x-6">
-            <a href="https://github.com/siambinhasan" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200">
-              <GitHubIcon />
-            </a>
-            <a href="https://linkedin.com/in/siambinhasan" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200">
-              <LinkedInIcon />
-            </a>
-            <a href="https://twitter.com/siambinhasan" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200">
-              <TwitterIcon />
-            </a>
-          </div>
-        </div>
       </div>
     </Section>
   );
@@ -484,6 +550,25 @@ export default function App() {
           <Hero />
           <About />
           <Projects />
+          
+          {/* Resume Download Section */}
+          <Section id="resume" title="My Resume">
+            <div className="text-center">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
+                Download my latest resume to learn more about my background and experience.
+              </p>
+              <Button
+                onClick={() => {
+                  // Add your resume PDF to public folder
+                  window.open('/resume-siam-bin-hasan.pdf', '_blank');
+                }}
+                primary
+              >
+                📄 Download Resume (PDF)
+              </Button>
+            </div>
+          </Section>
+          
           <Contact />
         </main>
         <Footer />
