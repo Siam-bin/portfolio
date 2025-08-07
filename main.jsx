@@ -245,7 +245,7 @@ const Hero = () => {
                 <GitHubIcon />
               </a>
               <a 
-                href="https://linkedin.com/in/siambinhasan" 
+                href="https://www.linkedin.com/in/siam-bin-hasan/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 transform hover:scale-110"
@@ -263,7 +263,7 @@ const Hero = () => {
                 <FacebookIcon />
               </a>
               <a 
-                href="https://instagram.com/siambinhasan" 
+                href="https://instagram.com/siam.bin" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-700 dark:text-gray-300 hover:text-pink-500 dark:hover:text-pink-400 transition-colors duration-200 transform hover:scale-110"
@@ -272,7 +272,7 @@ const Hero = () => {
                 <InstagramIcon />
               </a>
               <a 
-                href="https://wa.me/+8801XXXXXXXXX" 
+                href="https://wa.me/+8801921605319" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-700 dark:text-gray-300 hover:text-green-500 dark:hover:text-green-400 transition-colors duration-200 transform hover:scale-110"
